@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loadStylesheet('styles/styles.css');
 
     // Загрузка HTML контента и соответствующих стилей
-    loadHTML('header-container', 'header.html', ['styles/header.css']);
+    loadHTML('header-container', 'header.html', ['styles/header.css', 'styles/styles.css']);
     loadHTML('main-content-container', 'home/main-content.html', ['styles/button.css']); // , ['main-content.css', 'button.css']
     loadHTML('footer-container', 'footer.html', ['styles/footer.css']);
     
