@@ -1,0 +1,33 @@
+footer {
+    background-color: #f8f9fa; /* Светлый фон для футера */
+    padding-top: 40px; /* Увеличиваем внутренний отступ сверху */
+    padding-bottom: 40px; /* Увеличиваем внутренний отступ снизу */
+    text-align: center; /* Центрируем текст в футере */
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px; /* Добавляем отступ под заголовком */
+}
+
+footer p, footer ul li {
+    font-size: 14px;
+    margin-bottom: 10px; /* Добавляем отступ между текстовыми элементами */
+}
+
+footer .container {
+    padding: 20px 0; /* Вертикальные отступы для контейнера */
+}
+
+footer .text-center.p-4 {
+    font-size: 12px;
+    padding: 20px; /* Вертикальные отступы для нижней части футера */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

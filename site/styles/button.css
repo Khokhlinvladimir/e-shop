@@ -1,0 +1,13 @@
+.btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Добавляем отступы сверху/снизу и слева/справа */
+    font-size: 16px; /* Можешь добавить размер шрифта для улучшения внешнего вида */
+    border-radius: 4px; /* Добавляем легкое закругление краев */
+}
+
+.btn-black:hover {
+    background-color: #333;
+    color: white;
+}
